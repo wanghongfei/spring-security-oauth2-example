@@ -120,3 +120,5 @@ DEFAULT CHARACTER SET = utf8;
 localhost:8080/oauth/authorize?client_id=client&response_type=code&redirect_uri=http://www.baidu.com
 ```
 访问时Spring让你登陆,随便输入一个用户名密码即可.
+
+数据库连接信息在`application.properties`中配置。
